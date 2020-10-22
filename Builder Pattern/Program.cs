@@ -13,14 +13,14 @@ namespace Builder_Pattern
             upgradeInventory.Add(Upgrade.HeatedSeats);
 
             var carBuilder = new CarBuilder(upgradeInventory);
-            var director = new CarBuilderDirector(carBuilder);
+            var carBuilderDirector = new CarBuilderDirector(carBuilder);
 
             Console.WriteLine("Karam's Car:");
-            Console.WriteLine(director.BuildSilverHondaCivic().ToString());
+            Console.WriteLine(carBuilderDirector.BuildSilverHondaCivic().ToString());
             Console.WriteLine("\n");
 
             Console.WriteLine("Mum's Car:");
-            Console.WriteLine(director.BuildRedToyotaYaris().ToString());
+            Console.WriteLine(carBuilderDirector.BuildRedToyotaYaris().ToString());
             Console.WriteLine("\n");
 
             Console.WriteLine("A Custom Car:");
