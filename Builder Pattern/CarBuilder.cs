@@ -45,8 +45,8 @@ namespace Builder_Pattern
 
         // By using the Builder Pattern, we separate
         // the construction logic of the Car object
-        // which is based on whether an upgrade is in stock
-        // or not, from the internal representation of the Car.
+        // (which is based on whether an upgrade is in stock or not),
+        // from the internal representation of the Car.
         public ICarBuilder WithUpgrade(Upgrade upgrade)
         {
             if (!_upgradesInStock.Contains(upgrade)) return this;

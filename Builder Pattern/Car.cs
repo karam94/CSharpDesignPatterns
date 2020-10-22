@@ -35,6 +35,8 @@ namespace Builder_Pattern
             _upgrades.Add(upgrade);
         }
 
-        public override string ToString() => $"A{(_upgrades.Count > 0 ? $" custom" : "")} {_colour} {_brand} {_model} with {_numberOfDoors} doors with {_upgrades.Count} added upgrades.";
+        public override string ToString() => $"A{(_upgrades.Count > 0 ? $" custom" : "")} " +
+                                             $"{_colour} {_brand} {_model} with {_numberOfDoors} " +
+                                             $"doors with {_upgrades.Count} added upgrades.";
     }
 }
