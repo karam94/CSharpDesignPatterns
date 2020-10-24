@@ -10,15 +10,7 @@
         }
 
         public string GetName() => Name;
-
-        public void SetName(string newName)
-        {
-            Name = newName;
-        }
-
-        public override string ToString()
-        {
-            return $"{Name}.\n";
-        }
+        public void SetName(string newName) => Name = newName;
+        public override string ToString() => $"{Name}.\n";
     }
 }

@@ -15,7 +15,7 @@ namespace Prototype_Pattern
             Console.WriteLine("----- CLONED DEVELOPER -----");
             Console.WriteLine(clonedDeveloper.ToString());
 
-            Console.WriteLine("----- MODIFYING VALUE TYPES ON ORIGINAL, DOES NOT APPLY TO CLONE -----");
+            Console.WriteLine("----- MODIFYING VALUE TYPES (& STRINGS) ON ORIGINAL, DOES NOT APPLY TO CLONE -----");
             originalDeveloper.SetName("Donald Trump");
             originalDeveloper.SetAge(74);
             Console.WriteLine("----- MODIFIED ORIGINAL DEVELOPER -----");
