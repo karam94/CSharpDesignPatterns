@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder Pattern", "Builder Pattern\Builder Pattern.csproj", "{727D8164-66FD-4CE8-A2BF-0FBE7603FF47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder Pattern", "Creational\Builder Pattern\Builder Pattern.csproj", "{727D8164-66FD-4CE8-A2BF-0FBE7603FF47}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype Pattern", "Prototype Pattern\Prototype Pattern.csproj", "{B96AC0CA-0BFE-4A3D-9638-940978E52FF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype Pattern", "Creational\Prototype Pattern\Prototype Pattern.csproj", "{B96AC0CA-0BFE-4A3D-9638-940978E52FF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple Factory Pattern", "Simple Factory Pattern\Simple Factory Pattern.csproj", "{92159D5D-681C-42CF-8D67-1B393CB2CF4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple Factory Pattern", "Creational\Simple Factory Pattern\Simple Factory Pattern.csproj", "{92159D5D-681C-42CF-8D67-1B393CB2CF4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory Method Pattern", "Factory Method Pattern\Factory Method Pattern.csproj", "{8FB6528B-A88B-4B7E-BBDD-83BBABFF4242}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory Method Pattern", "Creational\Factory Method Pattern\Factory Method Pattern.csproj", "{8FB6528B-A88B-4B7E-BBDD-83BBABFF4242}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Factory Pattern", "Abstract Factory Pattern\Abstract Factory Pattern.csproj", "{2FB3596A-3768-4E60-8E94-A010A04BCC96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Factory Pattern", "Creational\Abstract Factory Pattern\Abstract Factory Pattern.csproj", "{2FB3596A-3768-4E60-8E94-A010A04BCC96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
