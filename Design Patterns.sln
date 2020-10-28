@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade Pattern", "Structural\Facade Pattern\Facade Pattern.csproj", "{E8101465-2985-442F-A958-28C7415323FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator Pattern", "Decorator Pattern\Decorator Pattern.csproj", "{44FAF7C9-ED69-4ECC-AAB5-8D35A15C3F45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator Pattern", "Structural\Decorator Pattern\Decorator Pattern.csproj", "{44FAF7C9-ED69-4ECC-AAB5-8D35A15C3F45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
